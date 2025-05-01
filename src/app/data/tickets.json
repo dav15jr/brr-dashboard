@@ -1,0 +1,27 @@
+[
+    {
+    "id": 1,
+    "user":"james@exam.com",
+    "issue": "WI-FI not working",
+    "description": "The Wi-Fi connection is unstable and keeps dropping.",
+    "status": "Open",
+    "created": "2025-05-01"
+},
+    {
+    "id": 2,
+    "user":"shiela@exam.com",
+    "issue": "Slow computer",
+    "description": "The computer is running very slow and takes a long time to start.",
+    "status": "In Progress",
+    "created": "2025-04-21"
+},
+    {
+    "id": 3,
+    "user":"james@exam.com",
+    "issue": "Printer issue",
+    "description": "The printer is not responding and shows an error message.",
+    "status": "Resolved",
+    "created": "2025-03-01"
+}
+
+]

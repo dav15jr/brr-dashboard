@@ -1,0 +1,32 @@
+[
+    {
+    "id": 1,
+    "name": "James Doe",
+    "role": "Full Stack Engineer",
+    "email":"james@exam.com",
+    "status": "active",
+    "lastLogin": "2025-05-01",
+    "driveUsage": "2 GB",
+    "device": "Dell Laptop"
+},
+    {
+    "id": 2,
+    "name": "Mike Jones",
+    "role": "Frontend Engineer",
+    "email":"mike@exam.com",
+    "status": "active",
+    "lastLogin": "2024-11-04",
+    "driveUsage": "3.7 GB",
+    "device": "Macbook"
+},
+    {
+    "id": 3,
+    "name": "Sheila Duffy",
+    "role": "Backend Engineer",
+    "email":"sheila@exam.com",
+    "status": "active",
+    "lastLogin": "2025-04-21",
+    "driveUsage": "1.2 GB",
+    "device": "Lenovo Laptop"
+}
+]
