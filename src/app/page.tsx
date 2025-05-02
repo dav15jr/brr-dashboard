@@ -20,9 +20,9 @@ export default function Page() {
 
   return (
     <section className="container mx-auto px-4 py-8">
-      <section className="text-center">
-        <h1 className="text-3xl font-bold mb-8">Welcome to your Dashboard</h1>
-        <p>Here you can find a summary of your activities and tasks.</p>
+      <section className="text-center border rounded-xl bg-purple-300 dark:bg-purple-800 p-6 mx-3">
+        <h1 className="text-4xl font-bold mb-8">Welcome to your Dashboard</h1>
+        <p>Explore your summary of activities and tasks.</p>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
