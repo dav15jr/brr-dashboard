@@ -17,11 +17,35 @@
 },
     {
     "id": 3,
-    "user":"james@exam.com",
+    "user":"john@exam.com",
+    "issue": "Printer issue",
+    "description": "The printer is not responding and shows an error message.",
+    "status": "Open",
+    "created": "2025-03-01"
+},
+    {
+    "id": 4,
+    "user":"fernando@exam.com",
+    "issue": "Webcam not working",
+    "description": "The Webcam is not working.",
+    "status": "Open",
+    "created": "2025-01-06"
+},
+    {
+    "id": 5,
+    "user":"betty@exam.com",
+    "issue": "Keyboard not working",
+    "description": "The laptop keyboard is not working properly.",
+    "status": "In Progress",
+    "created": "2025-04-21"
+},
+    {
+    "id": 6,
+    "user":"jack@exam.com",
     "issue": "Printer issue",
     "description": "The printer is not responding and shows an error message.",
     "status": "Resolved",
-    "created": "2025-03-01"
+    "created": "2025-03-11"
 }
 
 ]

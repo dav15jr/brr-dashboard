@@ -41,24 +41,24 @@ export default function TicketList({ticketList}: {ticketList: TicketInfo}) {
   return (
     <div className={`
       border p-4 m-2 rounded-xl 
-      shadow-lg w-auto 
-      text-gray-300 
-      hover:bg-gray-700 
-      bg-gray-800 
+      shadow-lg w-[300px] 
+       text-gray-700 dark:text-gray-300 hover:bg-gray-300 
+      dark:hover:bg-gray-800 
+       bg-gray-200 dark:bg-gray-700
       transition duration-300 
       ease-in-out
       ${getBorderColor(ticketList.status)}
     `}>   
-      <h2><span className='font-bold text-white'>Issue:</span> {ticketList.issue}</h2>
-      <p><span className='font-bold text-white'>Description:</span> {ticketList.description}</p>
-      <p><span className='font-bold text-white'>User:</span> {ticketList.user}</p>
+      <h2><span className='font-bold  text-black dark:text-white'>Issue:</span> {ticketList.issue}</h2>
+      <p><span className='font-bold  text-black dark:text-white'>Description:</span> {ticketList.description}</p>
+      <p><span className='font-bold  text-black dark:text-white'>User:</span> {ticketList.user}</p>
       <p>
-        <span className='font-bold text-white'>Status: </span>
+        <span className='font-bold  text-black dark:text-white'>Status: </span>
         <span className={`px-2 py-1 rounded-full text-sm ${getStatusColor(ticketList.status)}`}>
           {ticketList.status}
         </span>
       </p>
-      <p><span className='font-bold text-white'>Created:</span> {ticketList.created}</p>
+      <p><span className='font-bold  text-black dark:text-white'>Created:</span> {ticketList.created}</p>
     </div>
   )
 }

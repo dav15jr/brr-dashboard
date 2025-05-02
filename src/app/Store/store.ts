@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import tickets from '../data/tickets.json';
 
 type Task = {
   id: number,
@@ -34,7 +35,7 @@ export const useStore =
   ((set) => ({
     user: '',
     tasks: [],
-    tickets: [],
+    tickets: tickets,
     setUser: (user) => set({ user }),
     addTask: (task) =>
       set((state) => ({

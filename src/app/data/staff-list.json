@@ -28,5 +28,65 @@
     "lastLogin": "2025-04-21",
     "driveUsage": "1.2 GB",
     "device": "Lenovo Laptop"
+},
+    {
+    "id": 4,
+    "name": "Daniel Smith",
+    "role": "Full Stack Engineer",
+    "email":"james@exam.com",
+    "status": "active",
+    "lastLogin": "2025-05-01",
+    "driveUsage": "2 GB",
+    "device": "Dell Laptop"
+},
+    {
+    "id": 5,
+    "name": "Ned Stark",
+    "role": "Frontend Engineer",
+    "email":"mike@exam.com",
+    "status": "active",
+    "lastLogin": "2024-11-04",
+    "driveUsage": "3.7 GB",
+    "device": "Macbook"
+},
+    {
+    "id": 6,
+    "name": "John Wick",
+    "role": "Backend Engineer",
+    "email":"sheila@exam.com",
+    "status": "active",
+    "lastLogin": "2025-04-21",
+    "driveUsage": "1.2 GB",
+    "device": "Lenovo Laptop"
+},
+    {
+    "id": 7,
+    "name": "Jamie Conner",
+    "role": "Full Stack Engineer",
+    "email":"james@exam.com",
+    "status": "active",
+    "lastLogin": "2025-05-01",
+    "driveUsage": "2 GB",
+    "device": "Dell Laptop"
+},
+    {
+    "id": 8,
+    "name": "Phil Jones",
+    "role": "Frontend Engineer",
+    "email":"mike@exam.com",
+    "status": "active",
+    "lastLogin": "2024-11-04",
+    "driveUsage": "3.7 GB",
+    "device": "Macbook"
+},
+    {
+    "id": 9,
+    "name": "Rose Duffy",
+    "role": "Backend Engineer",
+    "email":"sheila@exam.com",
+    "status": "active",
+    "lastLogin": "2025-04-21",
+    "driveUsage": "1.2 GB",
+    "device": "Lenovo Laptop"
 }
 ]

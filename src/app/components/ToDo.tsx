@@ -42,7 +42,7 @@ export default function ToDo() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 bg-gray-800 rounded shadow-md text-white">
+    <div className="max-w-md mx-auto p-4 bg-gray-200 dark:bg-gray-800 rounded shadow-md text-black dark:text-white">
       <form onSubmit={handleAddTask} className="mb-4 flex gap-2">
         <input
           type="text"
@@ -58,7 +58,7 @@ export default function ToDo() {
 
       <ul className="space-y-2">
         {tasks.map(task => (
-          <li key={task.id} className="flex items-center gap-2 p-2 bg-gray-800 rounded">
+          <li key={task.id} className="flex items-center gap-2 p-2 bg-gray-300 dark:bg-gray-900 rounded">
             <input
               type="checkbox"
               checked={task.isComplete}

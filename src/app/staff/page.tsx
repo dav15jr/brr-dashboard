@@ -21,7 +21,7 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const simulateFetch = (data: StaffInfo[], delay = 1000, shouldFail = false): Promise<StaffInfo[]> => { // Simulate a fetch request with a delay and optional failure
+  const simulateFetch = (data: StaffInfo[], delay = 500, shouldFail = false): Promise<StaffInfo[]> => { // Simulate a fetch request with a delay and optional failure
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         if (shouldFail) {     // Simulate a failure
@@ -37,7 +37,7 @@ export default function Page() {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const data = await simulateFetch(staffData, 1500, false); // Pass staffData directly using the simulateFetch function with a delay of 1500ms and no failure.
+        const data = await simulateFetch(staffData, 1000, false); // Pass staffData directly using the simulateFetch function with a delay of 1500ms and no failure.
         setStaffList(data);
       } catch (err) {
         // console.error('Failed to fetch posts:', error); // Log the error
@@ -51,17 +51,17 @@ export default function Page() {
   }, []);
 
 if (loading) {
-    return <div>Loading...</div>; 
+    return <div className='text-center text-2xl'>Staff List Loading...</div>; 
   
 } 
 if (error) {
-    return <div>{error}</div>;  
+    return <div className='text-center text-2xl text-red-500'>{error}</div>;  
   }
 
   return (
     <div>
       <h1 className="text-4xl m-4 text-center" >Welcome to your Staff Directory</h1>
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto max-w-[800px]">
       {staffList.map((staff, index) => (
         <StaffCard key={index} staffInfo={staff} />
       ))}
